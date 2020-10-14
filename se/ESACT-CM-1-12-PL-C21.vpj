@@ -1,0 +1,220 @@
+<!DOCTYPE Project SYSTEM "http://www.slickedit.com/dtd/vse/10.0/vpj.dtd">
+<Project
+    Version="10.0"
+    VendorName="SlickEdit"
+    TemplateName="Other C/C++"
+    WorkingDir=".">
+    <Config
+        Name="Debug"
+        Type="cpp"
+        DebugCallbackName="gdb"
+        OutputFile="%bdESACT-CM-1-12-PL-C21"
+        CompilerConfigName="Latest Version">
+        <Menu>
+            <Target
+                Name="Compile"
+                MenuCaption="&amp;Compile"
+                CaptureOutputWith="ProcessBuffer"
+                OutputExts="*.o"
+                SaveOption="SaveCurrent"
+                RunFromDir="%rw">
+                <Exec CmdLine='cc -c -g %i %defd -o "%bd%n.o" "%f"'/>
+            </Target>
+            <Target
+                Name="Link"
+                MenuCaption="&amp;Link">
+                <Exec CmdLine='cc -g -o "%o" %f %libs'/>
+            </Target>
+            <Target
+                Name="Build"
+                MenuCaption="&amp;Build"
+                CaptureOutputWith="ProcessBuffer"
+                SaveOption="SaveWorkspaceFiles"
+                RunFromDir="%rw">
+                <Exec CmdLine='"%(VSLICKBIN1)vsbuild" build "%w" "%r"'/>
+            </Target>
+            <Target
+                Name="Rebuild"
+                MenuCaption="&amp;Rebuild"
+                CaptureOutputWith="ProcessBuffer"
+                SaveOption="SaveWorkspaceFiles"
+                RunFromDir="%rw">
+                <Exec CmdLine='"%(VSLICKBIN1)vsbuild" rebuild "%w" "%r"'/>
+            </Target>
+            <Target
+                Name="Debug"
+                MenuCaption="&amp;Debug"
+                SaveOption="SaveNone"
+                BuildFirst="1"
+                CaptureOutputWith="ProcessBuffer"
+                RunFromDir="%rw">
+                <Exec CmdLine='vsdebugio -prog "%o"'/>
+            </Target>
+            <Target
+                Name="Execute"
+                MenuCaption="E&amp;xecute"
+                SaveOption="SaveNone"
+                BuildFirst="1"
+                CaptureOutputWith="ProcessBuffer"
+                RunFromDir="%rw">
+                <Exec CmdLine='"%o"'/>
+            </Target>
+        </Menu>
+    </Config>
+    <Config
+        Name="Release"
+        Type="cpp"
+        DebugCallbackName="gdb"
+        OutputFile="%bdESACT-CM-1-12-PL-C21"
+        CompilerConfigName="Latest Version">
+        <Menu>
+            <Target
+                Name="Compile"
+                MenuCaption="&amp;Compile"
+                CaptureOutputWith="ProcessBuffer"
+                SaveOption="SaveCurrent"
+                OutputExts="*.o"
+                RunFromDir="%rw">
+                <Exec CmdLine='cc -c -O %i %defd -o "%bd%n.o" "%f"'/>
+            </Target>
+            <Target
+                Name="Link"
+                MenuCaption="&amp;Link">
+                <Exec CmdLine='cc -O -o "%o" %f %libs'/>
+            </Target>
+            <Target
+                Name="Build"
+                MenuCaption="&amp;Build"
+                CaptureOutputWith="ProcessBuffer"
+                SaveOption="SaveWorkspaceFiles"
+                RunFromDir="%rw">
+                <Exec CmdLine='"%(VSLICKBIN1)vsbuild" build "%w" "%r"'/>
+            </Target>
+            <Target
+                Name="Rebuild"
+                MenuCaption="&amp;Rebuild"
+                CaptureOutputWith="ProcessBuffer"
+                SaveOption="SaveWorkspaceFiles"
+                RunFromDir="%rw">
+                <Exec CmdLine='"%(VSLICKBIN1)vsbuild" rebuild "%w" "%r"'/>
+            </Target>
+            <Target
+                Name="Debug"
+                MenuCaption="&amp;Debug"
+                SaveOption="SaveNone"
+                BuildFirst="1"
+                CaptureOutputWith="ProcessBuffer"
+                RunFromDir="%rw">
+                <Exec CmdLine='vsdebugio -prog "%o"'/>
+            </Target>
+            <Target
+                Name="Execute"
+                MenuCaption="E&amp;xecute"
+                SaveOption="SaveNone"
+                BuildFirst="1"
+                CaptureOutputWith="ProcessBuffer"
+                RunFromDir="%rw">
+                <Exec CmdLine='"%o"'/>
+            </Target>
+        </Menu>
+    </Config>
+    <Rules Name="Compile">
+        <Rule
+            InputExts="*.s"
+            OutputExts="*.o"
+            LinkObject="1">
+            <Exec CmdLine='as -o "%bd%n.o" "%f"'/>
+        </Rule>
+    </Rules>
+    <Files>
+        <Folder
+            Name="Bitmaps"
+            Filters="*.bmp"
+            GUID="{31F93DA0-C060-4164-DA0A-D33AE67C1098}"/>
+        <Folder
+            Name="Header Files"
+            Filters="*.h;*.H;*.hh;*.hpp;*.hxx;*.h++;*.inc;*.sh;*.cpy;*.if"
+            GUID="{D3C77803-5F46-4EB3-EB6C-31D15EC191B8}">
+            <F N="../sec67/my/bitmap.h"/>
+            <F N="../sec67/my/bitops.h"/>
+            <F N="../sec67/user/cmd.h"/>
+            <F N="../sec67/my/comfunc.h"/>
+            <F N="../sec67/CMSIS/core_cm3.h"/>
+            <F N="../sec67/CMSIS/core_cmFunc.h"/>
+            <F N="../sec67/CMSIS/core_cmInstr.h"/>
+            <F N="../sec67/my/crc32.h"/>
+            <F N="../sec67/SDK/socket/def.h"/>
+            <F N="../sec67/my/dev_show.h"/>
+            <F N="../sec67/public/eslist.h"/>
+            <F N="../sec67/my/esuart.h"/>
+            <F N="../sec67/dev_ctrl/include/flash.h"/>
+            <F N="../sec67/dev_ctrl/include/gpio.h"/>
+            <F N="../sec67/dev_ctrl/include/gpio_reg.h"/>
+            <F N="../sec67/public/include.h"/>
+            <F N="../sec67/CMSIS/indefine.h"/>
+            <F N="../sec67/SDK/socket/inet.h"/>
+            <F N="../sec67/SDK/socket/ip_addr.h"/>
+            <F N="../sec67/dev_ctrl/include/irq.h"/>
+            <F N="../sec67/user/list.h"/>
+            <F N="../sec67/my/log2.h"/>
+            <F N="../sec67/my/Motor_func.h"/>
+            <F N="../sec67/my/protocol.h"/>
+            <F N="../sec67/user/rbtree.h"/>
+            <F N="../sec67/my/RemoteRXDegree.h"/>
+            <F N="../sec67/my/repeater.h"/>
+            <F N="../sec67/dev_ctrl/include/scu.h"/>
+            <F N="../sec67/SDK/sdk.h"/>
+            <F N="../sec67/SDK/sdk_evt.h"/>
+            <F N="../sec67/SDK/sdk_svc.h"/>
+            <F N="../sec67/user/sec.h"/>
+            <F N="../sec67/my/sec_printf.h"/>
+            <F N="../sec67/my/sec_tick.h"/>
+            <F N="../sec67/SDK/socket/sockets.h"/>
+            <F N="../sec67/my/softtimer.h"/>
+            <F N="../sec67/CMSIS/ssc1667.h"/>
+            <F N="../sec67/my/task.h"/>
+            <F N="../sec67/user/term.h"/>
+            <F N="../sec67/dev_ctrl/include/timer.h"/>
+            <F N="../sec67/public/types.h"/>
+            <F N="../sec67/dev_ctrl/include/uart.h"/>
+            <F N="../sec67/dev_ctrl/include/uart_reg.h"/>
+            <F N="../sec67/my/update.h"/>
+            <F N="../sec67/user/vsh.h"/>
+            <F N="../sec67/dev_ctrl/include/wdog.h"/>
+        </Folder>
+        <Folder
+            Name="Other Files"
+            Filters=""
+            GUID="{330C0EC2-1418-402A-302E-C1FCA50C6C82}"/>
+        <Folder
+            Name="Resource Files"
+            Filters="*.ico;*.cur;*.dlg"
+            GUID="{5BE6DFAE-8BEA-494F-C19C-7D655AE913AB}">
+            <F N="../prj/pri_sec67/ReadMe.txt"/>
+        </Folder>
+        <Folder
+            Name="Source Files"
+            Filters="*.c;*.C;*.cc;*.cpp;*.cp;*.cxx;*.c++;*.prg;*.pas;*.dpr;*.asm;*.s;*.bas;*.java;*.cs;*.sc;*.scala;*.e;*.cob;*.html;*.rc;*.tcl;*.py;*.pl;*.d;*.m;*.mm;*.go;*.groovy;*.gsh"
+            GUID="{389FCCB7-EB9B-426D-E9B4-763A24BE8EB4}">
+            <F N="../sec67/my/bitmap.c"/>
+            <F N="../sec67/my/bitops.c"/>
+            <F N="../sec67/user/cmd.c"/>
+            <F N="../sec67/my/comfunc.c"/>
+            <F N="../sec67/my/crc32.c"/>
+            <F N="../sec67/SDK/socket/def.c"/>
+            <F N="../sec67/my/dev_show.c"/>
+            <F N="../sec67/my/esuart.c"/>
+            <F N="../sec67/user/main.c"/>
+            <F N="../sec67/my/Motor_func.c"/>
+            <F N="../sec67/my/protocol.c"/>
+            <F N="../sec67/my/repeater.c"/>
+            <F N="../sec67/SDK/sdk_evt.c"/>
+            <F N="../sec67/my/sec_printf.c"/>
+            <F N="../sec67/my/sec_tick.c"/>
+            <F N="../sec67/my/softtimer.c"/>
+            <F N="../sec67/my/task.c"/>
+            <F N="../sec67/dev_ctrl/include/uart.c"/>
+            <F N="../sec67/my/update.c"/>
+        </Folder>
+    </Files>
+</Project>

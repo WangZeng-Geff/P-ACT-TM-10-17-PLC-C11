@@ -1,0 +1,484 @@
+Dependencies for Project 'sec67', Target 'sec67': (DO NOT MODIFY !)
+F (..\..\sec67\CMSIS\core_cm3.h)(0x5D53BE46)()
+F (..\..\sec67\CMSIS\core_cmFunc.h)(0x5C00E3DA)()
+F (..\..\sec67\CMSIS\core_cmInstr.h)(0x5D53BE46)()
+F (..\..\sec67\CMSIS\indefine.h)(0x5C00E3DA)()
+F (..\..\sec67\CMSIS\ssc1667.h)(0x5D53BE46)()
+F (..\..\sec67\dev_ctrl\include\uart.c)(0x5DBBCF74)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\uart.o" --omf_browse ".\output\uart.crf" --depend ".\output\uart.d")
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (..\..\sec67\dev_ctrl\include\uart.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\ssc1667.h)(0x5D53BE46)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\sec67\CMSIS\core_cm3.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmInstr.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmFunc.h)(0x5C00E3DA)
+I (..\..\sec67\dev_ctrl\include\uart_reg.h)(0x5C00E3DA)
+I (..\..\sec67\dev_ctrl\include\gpio.h)(0x5C00E3DA)
+I (..\..\sec67\dev_ctrl\include\scu.h)(0x5C00E3DA)
+I (..\..\sec67\dev_ctrl\include\irq.h)(0x5C00E3DA)
+F (..\..\sec67\public\include.h)(0x5C00E3DA)()
+F (..\..\sec67\public\types.h)(0x5D53BE46)()
+F (..\..\sec67\SDK\sdk.h)(0x5C00E3DA)()
+F (..\..\sec67\SDK\sdk_evt.c)(0x5C00E3DA)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\sdk_evt.o" --omf_browse ".\output\sdk_evt.crf" --depend ".\output\sdk_evt.d")
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (..\..\sec67\SDK\sdk_evt.h)(0x5E04629B)
+I (..\..\sec67\SDK\sdk.h)(0x5C00E3DA)
+I (..\..\sec67\dev_ctrl\include\gpio.h)(0x5C00E3DA)
+I (..\..\sec67\CMSIS\ssc1667.h)(0x5D53BE46)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\sec67\CMSIS\core_cm3.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmInstr.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmFunc.h)(0x5C00E3DA)
+I (..\..\sec67\user\cmd.h)(0x5DA7DDCC)
+I (..\..\sec67\user\vsh.h)(0x5C00E3DA)
+I (..\..\sec67\user\rbtree.h)(0x5C00E3DA)
+I (..\..\sec67\user\list.h)(0x5D3EB191)
+I (..\..\sec67\user\term.h)(0x5D53BE46)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (..\..\sec67\my\repeater.h)(0x5E094B67)
+I (..\..\sec67\my\protocol.h)(0x5E4B7F3B)
+I (..\..\sec67\my\Motor_func.h)(0x5DFB4B3D)
+I (..\..\sec67\dev_ctrl\include\flash.h)(0x5E4B7376)
+I (..\..\sec67\dev_ctrl\include\timer.h)(0x5D54CAB8)
+I (..\..\sec67\dev_ctrl\include\uart.h)(0x5D53BE46)
+I (..\..\sec67\my\RemoteRXDegree.h)(0x5D6CAD1B)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\sec67\public\include.h)(0x5C00E3DA)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (..\..\sec67\SDK\sdk_svc.h)(0x5C00E3DA)
+I (..\..\sec67\my\comfunc.h)(0x5D8ADB11)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0D27E)
+I (..\..\sec67\my\sec_printf.h)(0x5C00E3DA)
+I (..\..\sec67\my\update.h)(0x5D53BE46)
+I (..\..\sec67\my\sec_tick.h)(0x5E4B87C1)
+I (..\..\sec67\my\dev_show.h)(0x5C00E3DA)
+I (..\..\sec67\my\task.h)(0x5D6C92EF)
+I (..\..\sec67\my\softtimer.h)(0x5C00E3DA)
+I (..\..\sec67\my\esuart.h)(0x5D53BE46)
+F (..\..\sec67\SDK\sdk_evt.h)(0x5E04629B)()
+F (..\..\sec67\SDK\sdk_svc.h)(0x5C00E3DA)()
+F (..\..\sec67\SDK\socket\def.c)(0x5C00E3DA)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\def.o" --omf_browse ".\output\def.crf" --depend ".\output\def.d")
+I (..\..\sec67\public\include.h)(0x5C00E3DA)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (..\..\sec67\SDK\socket\def.h)(0x5C00E3DA)
+F (..\..\sec67\SDK\socket\def.h)(0x5C00E3DA)()
+F (..\..\sec67\SDK\socket\inet.h)(0x5C00E3DA)()
+F (..\..\sec67\SDK\socket\ip_addr.h)(0x5C00E3DA)()
+F (..\..\sec67\SDK\socket\sockets.h)(0x5C00E3DA)()
+F (..\..\sec67\startup\startup_ssc1667.s)(0x5C00E3DA)(--cpu Cortex-M3 --li -g --apcs=interwork -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include --list ".\listing\startup_ssc1667.lst" --xref -o ".\output\startup_ssc1667.o" --depend ".\output\startup_ssc1667.d")
+F (..\..\sec67\user\main.c)(0x5E1D25BF)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\main.o" --omf_browse ".\output\main.crf" --depend ".\output\main.d")
+I (..\..\sec67\public\include.h)(0x5C00E3DA)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (..\..\sec67\user\sec.h)(0x5C00E3DA)
+I (..\..\sec67\SDK\sdk.h)(0x5C00E3DA)
+I (..\..\sec67\dev_ctrl\include\uart.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\ssc1667.h)(0x5D53BE46)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\sec67\CMSIS\core_cm3.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmInstr.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmFunc.h)(0x5C00E3DA)
+I (..\..\sec67\my\task.h)(0x5D6C92EF)
+I (..\..\sec67\user\list.h)(0x5D3EB191)
+I (..\..\sec67\my\repeater.h)(0x5E094B67)
+I (..\..\sec67\SDK\sdk_evt.h)(0x5E04629B)
+I (..\..\sec67\my\protocol.h)(0x5E4B7F3B)
+I (..\..\sec67\my\Motor_func.h)(0x5DFB4B3D)
+I (..\..\sec67\dev_ctrl\include\flash.h)(0x5E4B7376)
+I (..\..\sec67\dev_ctrl\include\timer.h)(0x5D54CAB8)
+I (..\..\sec67\my\RemoteRXDegree.h)(0x5D6CAD1B)
+I (..\..\sec67\SDK\sdk_svc.h)(0x5C00E3DA)
+I (..\..\sec67\my\comfunc.h)(0x5D8ADB11)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0D27E)
+I (..\..\sec67\my\sec_printf.h)(0x5C00E3DA)
+I (..\..\sec67\my\update.h)(0x5D53BE46)
+I (..\..\sec67\dev_ctrl\include\gpio.h)(0x5C00E3DA)
+I (..\..\sec67\my\sec_tick.h)(0x5E4B87C1)
+I (..\..\sec67\my\dev_show.h)(0x5C00E3DA)
+I (..\..\sec67\my\softtimer.h)(0x5C00E3DA)
+I (..\..\sec67\my\esuart.h)(0x5D53BE46)
+F (..\..\sec67\user\cmd.h)(0x5DA7DDCC)()
+F (..\..\sec67\user\sec.h)(0x5C00E3DA)()
+F (..\..\sec67\user\cmd.c)(0x5E006CEF)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\cmd.o" --omf_browse ".\output\cmd.crf" --depend ".\output\cmd.d")
+I (..\..\sec67\public\include.h)(0x5C00E3DA)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (..\..\sec67\my\comfunc.h)(0x5D8ADB11)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0D27E)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\sec67\my\repeater.h)(0x5E094B67)
+I (..\..\sec67\SDK\sdk_evt.h)(0x5E04629B)
+I (..\..\sec67\SDK\sdk.h)(0x5C00E3DA)
+I (..\..\sec67\my\protocol.h)(0x5E4B7F3B)
+I (..\..\sec67\my\Motor_func.h)(0x5DFB4B3D)
+I (..\..\sec67\dev_ctrl\include\flash.h)(0x5E4B7376)
+I (..\..\sec67\dev_ctrl\include\timer.h)(0x5D54CAB8)
+I (..\..\sec67\dev_ctrl\include\uart.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\ssc1667.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cm3.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmInstr.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmFunc.h)(0x5C00E3DA)
+I (..\..\sec67\my\RemoteRXDegree.h)(0x5D6CAD1B)
+I (..\..\sec67\SDK\sdk_svc.h)(0x5C00E3DA)
+I (..\..\sec67\my\sec_printf.h)(0x5C00E3DA)
+I (..\..\sec67\my\update.h)(0x5D53BE46)
+I (..\..\sec67\dev_ctrl\include\gpio.h)(0x5C00E3DA)
+I (..\..\sec67\my\sec_tick.h)(0x5E4B87C1)
+I (..\..\sec67\my\dev_show.h)(0x5C00E3DA)
+I (..\..\sec67\my\task.h)(0x5D6C92EF)
+I (..\..\sec67\user\list.h)(0x5D3EB191)
+I (..\..\sec67\my\softtimer.h)(0x5C00E3DA)
+I (..\..\sec67\my\esuart.h)(0x5D53BE46)
+I (..\..\sec67\user\cmd.h)(0x5DA7DDCC)
+I (..\..\sec67\user\vsh.h)(0x5C00E3DA)
+I (..\..\sec67\user\rbtree.h)(0x5C00E3DA)
+I (..\..\sec67\user\term.h)(0x5D53BE46)
+F (..\..\sec67\lib\sec67.lib)(0x5C00E3DA)()
+F (..\..\sec67\my\crc32.c)(0x5D53BE46)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\crc32.o" --omf_browse ".\output\crc32.crf" --depend ".\output\crc32.d")
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\ctype.h)(0x4EB0D280)
+I (..\..\sec67\my\crc32.h)(0x5D53BE46)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+F (..\..\sec67\my\protocol.c)(0x5E4C9A5B)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\protocol.o" --omf_browse ".\output\protocol.crf" --depend ".\output\protocol.d")
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\sec67\public\include.h)(0x5C00E3DA)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (..\..\sec67\SDK\sdk.h)(0x5C00E3DA)
+I (..\..\sec67\dev_ctrl\include\flash.h)(0x5E4B7376)
+I (..\..\sec67\SDK\sdk_svc.h)(0x5C00E3DA)
+I (..\..\sec67\my\comfunc.h)(0x5D8ADB11)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0D27E)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\sec67\my\sec_printf.h)(0x5C00E3DA)
+I (..\..\sec67\my\protocol.h)(0x5E4B7F3B)
+I (..\..\sec67\SDK\sdk_evt.h)(0x5E04629B)
+I (..\..\sec67\my\Motor_func.h)(0x5DFB4B3D)
+I (..\..\sec67\my\update.h)(0x5D53BE46)
+I (..\..\sec67\dev_ctrl\include\timer.h)(0x5D54CAB8)
+I (..\..\sec67\my\repeater.h)(0x5E094B67)
+I (..\..\sec67\dev_ctrl\include\uart.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\ssc1667.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cm3.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmInstr.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmFunc.h)(0x5C00E3DA)
+I (..\..\sec67\my\RemoteRXDegree.h)(0x5D6CAD1B)
+I (..\..\sec67\dev_ctrl\include\gpio.h)(0x5C00E3DA)
+I (..\..\sec67\my\sec_tick.h)(0x5E4B87C1)
+I (..\..\sec67\my\dev_show.h)(0x5C00E3DA)
+I (..\..\sec67\my\task.h)(0x5D6C92EF)
+I (..\..\sec67\user\list.h)(0x5D3EB191)
+I (..\..\sec67\my\softtimer.h)(0x5C00E3DA)
+I (..\..\sec67\my\esuart.h)(0x5D53BE46)
+I (..\..\sec67\user\vsh.h)(0x5C00E3DA)
+I (..\..\sec67\user\rbtree.h)(0x5C00E3DA)
+I (..\..\sec67\user\term.h)(0x5D53BE46)
+I (..\..\sec67\user\cmd.h)(0x5DA7DDCC)
+F (..\..\sec67\my\sec_printf.c)(0x5E0061E5)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\sec_printf.o" --omf_browse ".\output\sec_printf.crf" --depend ".\output\sec_printf.d")
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\sec67\public\include.h)(0x5C00E3DA)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (..\..\sec67\dev_ctrl\include\timer.h)(0x5D54CAB8)
+I (..\..\sec67\user\cmd.h)(0x5DA7DDCC)
+I (..\..\sec67\user\vsh.h)(0x5C00E3DA)
+I (..\..\sec67\user\rbtree.h)(0x5C00E3DA)
+I (..\..\sec67\user\list.h)(0x5D3EB191)
+I (..\..\sec67\user\term.h)(0x5D53BE46)
+I (..\..\sec67\my\comfunc.h)(0x5D8ADB11)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0D27E)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\sec67\my\sec_printf.h)(0x5C00E3DA)
+I (..\..\sec67\my\repeater.h)(0x5E094B67)
+I (..\..\sec67\SDK\sdk_evt.h)(0x5E04629B)
+I (..\..\sec67\SDK\sdk.h)(0x5C00E3DA)
+I (..\..\sec67\my\protocol.h)(0x5E4B7F3B)
+I (..\..\sec67\my\Motor_func.h)(0x5DFB4B3D)
+I (..\..\sec67\dev_ctrl\include\flash.h)(0x5E4B7376)
+I (..\..\sec67\dev_ctrl\include\uart.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\ssc1667.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cm3.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmInstr.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmFunc.h)(0x5C00E3DA)
+I (..\..\sec67\my\RemoteRXDegree.h)(0x5D6CAD1B)
+I (..\..\sec67\SDK\sdk_svc.h)(0x5C00E3DA)
+I (..\..\sec67\my\update.h)(0x5D53BE46)
+I (..\..\sec67\dev_ctrl\include\gpio.h)(0x5C00E3DA)
+I (..\..\sec67\my\sec_tick.h)(0x5E4B87C1)
+I (..\..\sec67\my\dev_show.h)(0x5C00E3DA)
+I (..\..\sec67\my\task.h)(0x5D6C92EF)
+I (..\..\sec67\my\softtimer.h)(0x5C00E3DA)
+I (..\..\sec67\my\esuart.h)(0x5D53BE46)
+F (..\..\sec67\my\update.c)(0x5D53BE46)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\update.o" --omf_browse ".\output\update.crf" --depend ".\output\update.d")
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0D27E)
+I (..\..\sec67\public\include.h)(0x5C00E3DA)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (..\..\sec67\dev_ctrl\include\flash.h)(0x5E4B7376)
+I (..\..\sec67\SDK\sdk.h)(0x5C00E3DA)
+I (..\..\sec67\my\comfunc.h)(0x5D8ADB11)
+I (..\..\sec67\my\repeater.h)(0x5E094B67)
+I (..\..\sec67\SDK\sdk_evt.h)(0x5E04629B)
+I (..\..\sec67\my\protocol.h)(0x5E4B7F3B)
+I (..\..\sec67\my\Motor_func.h)(0x5DFB4B3D)
+I (..\..\sec67\dev_ctrl\include\timer.h)(0x5D54CAB8)
+I (..\..\sec67\dev_ctrl\include\uart.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\ssc1667.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cm3.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmInstr.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmFunc.h)(0x5C00E3DA)
+I (..\..\sec67\my\RemoteRXDegree.h)(0x5D6CAD1B)
+I (..\..\sec67\SDK\sdk_svc.h)(0x5C00E3DA)
+I (..\..\sec67\my\sec_printf.h)(0x5C00E3DA)
+I (..\..\sec67\my\update.h)(0x5D53BE46)
+I (..\..\sec67\dev_ctrl\include\gpio.h)(0x5C00E3DA)
+I (..\..\sec67\my\sec_tick.h)(0x5E4B87C1)
+I (..\..\sec67\my\dev_show.h)(0x5C00E3DA)
+I (..\..\sec67\my\task.h)(0x5D6C92EF)
+I (..\..\sec67\user\list.h)(0x5D3EB191)
+I (..\..\sec67\my\softtimer.h)(0x5C00E3DA)
+I (..\..\sec67\my\esuart.h)(0x5D53BE46)
+I (..\..\sec67\my\crc32.h)(0x5D53BE46)
+I (..\..\sec67\user\cmd.h)(0x5DA7DDCC)
+I (..\..\sec67\user\vsh.h)(0x5C00E3DA)
+I (..\..\sec67\user\rbtree.h)(0x5C00E3DA)
+I (..\..\sec67\user\term.h)(0x5D53BE46)
+F (..\..\sec67\my\repeater.c)(0x5E018561)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\repeater.o" --omf_browse ".\output\repeater.crf" --depend ".\output\repeater.d")
+I (..\..\sec67\public\include.h)(0x5C00E3DA)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (..\..\sec67\SDK\sdk_svc.h)(0x5C00E3DA)
+I (..\..\sec67\SDK\sdk.h)(0x5C00E3DA)
+I (..\..\sec67\SDK\sdk_evt.h)(0x5E04629B)
+I (..\..\sec67\dev_ctrl\include\timer.h)(0x5D54CAB8)
+I (..\..\sec67\dev_ctrl\include\gpio.h)(0x5C00E3DA)
+I (..\..\sec67\CMSIS\ssc1667.h)(0x5D53BE46)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\sec67\CMSIS\core_cm3.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmInstr.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmFunc.h)(0x5C00E3DA)
+I (..\..\sec67\dev_ctrl\include\uart.h)(0x5D53BE46)
+I (..\..\sec67\my\comfunc.h)(0x5D8ADB11)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0D27E)
+I (..\..\sec67\my\sec_printf.h)(0x5C00E3DA)
+I (..\..\sec67\user\cmd.h)(0x5DA7DDCC)
+I (..\..\sec67\user\vsh.h)(0x5C00E3DA)
+I (..\..\sec67\user\rbtree.h)(0x5C00E3DA)
+I (..\..\sec67\user\list.h)(0x5D3EB191)
+I (..\..\sec67\user\term.h)(0x5D53BE46)
+I (..\..\sec67\my\update.h)(0x5D53BE46)
+I (..\..\sec67\my\protocol.h)(0x5E4B7F3B)
+I (..\..\sec67\my\Motor_func.h)(0x5DFB4B3D)
+I (..\..\sec67\my\repeater.h)(0x5E094B67)
+I (..\..\sec67\dev_ctrl\include\flash.h)(0x5E4B7376)
+I (..\..\sec67\my\RemoteRXDegree.h)(0x5D6CAD1B)
+I (..\..\sec67\my\sec_tick.h)(0x5E4B87C1)
+I (..\..\sec67\my\dev_show.h)(0x5C00E3DA)
+I (..\..\sec67\my\task.h)(0x5D6C92EF)
+I (..\..\sec67\my\softtimer.h)(0x5C00E3DA)
+I (..\..\sec67\my\esuart.h)(0x5D53BE46)
+F (..\..\sec67\my\comfunc.c)(0x5D53BE46)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\comfunc.o" --omf_browse ".\output\comfunc.crf" --depend ".\output\comfunc.d")
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\ctype.h)(0x4EB0D280)
+I (..\..\sec67\public\include.h)(0x5C00E3DA)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (..\..\sec67\my\sec_printf.h)(0x5C00E3DA)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\sec67\my\comfunc.h)(0x5D8ADB11)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0D27E)
+F (..\..\sec67\my\bitmap.c)(0x5C00E3DA)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\bitmap.o" --omf_browse ".\output\bitmap.crf" --depend ".\output\bitmap.d")
+I (..\..\sec67\my\bitmap.h)(0x5C00E3DA)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\sec67\my\bitops.h)(0x5C00E3DA)
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (..\..\sec67\my\comfunc.h)(0x5D8ADB11)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0D27E)
+F (..\..\sec67\my\bitops.c)(0x5C00E3DA)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\bitops.o" --omf_browse ".\output\bitops.crf" --depend ".\output\bitops.d")
+I (..\..\sec67\my\comfunc.h)(0x5D8ADB11)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0D27E)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\sec67\my\bitmap.h)(0x5C00E3DA)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\sec67\my\bitops.h)(0x5C00E3DA)
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+F (..\..\sec67\my\dev_show.c)(0x5E00599F)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\dev_show.o" --omf_browse ".\output\dev_show.crf" --depend ".\output\dev_show.d")
+I (..\..\sec67\my\dev_show.h)(0x5C00E3DA)
+I (..\..\sec67\public\include.h)(0x5C00E3DA)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (..\..\sec67\my\repeater.h)(0x5E094B67)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\sec67\SDK\sdk_evt.h)(0x5E04629B)
+I (..\..\sec67\SDK\sdk.h)(0x5C00E3DA)
+I (..\..\sec67\my\protocol.h)(0x5E4B7F3B)
+I (..\..\sec67\my\Motor_func.h)(0x5DFB4B3D)
+I (..\..\sec67\dev_ctrl\include\flash.h)(0x5E4B7376)
+I (..\..\sec67\dev_ctrl\include\timer.h)(0x5D54CAB8)
+I (..\..\sec67\dev_ctrl\include\uart.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\ssc1667.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cm3.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmInstr.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmFunc.h)(0x5C00E3DA)
+I (..\..\sec67\my\RemoteRXDegree.h)(0x5D6CAD1B)
+I (..\..\sec67\SDK\sdk_svc.h)(0x5C00E3DA)
+I (..\..\sec67\my\comfunc.h)(0x5D8ADB11)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0D27E)
+I (..\..\sec67\my\sec_printf.h)(0x5C00E3DA)
+I (..\..\sec67\my\update.h)(0x5D53BE46)
+I (..\..\sec67\dev_ctrl\include\gpio.h)(0x5C00E3DA)
+I (..\..\sec67\my\sec_tick.h)(0x5E4B87C1)
+I (..\..\sec67\my\task.h)(0x5D6C92EF)
+I (..\..\sec67\user\list.h)(0x5D3EB191)
+I (..\..\sec67\my\softtimer.h)(0x5C00E3DA)
+I (..\..\sec67\my\esuart.h)(0x5D53BE46)
+F (..\..\sec67\my\sec_tick.c)(0x5E4C9F06)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\sec_tick.o" --omf_browse ".\output\sec_tick.crf" --depend ".\output\sec_tick.d")
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\sec67\public\include.h)(0x5C00E3DA)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (..\..\sec67\dev_ctrl\include\timer.h)(0x5D54CAB8)
+I (..\..\sec67\my\task.h)(0x5D6C92EF)
+I (..\..\sec67\user\list.h)(0x5D3EB191)
+I (..\..\sec67\my\comfunc.h)(0x5D8ADB11)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0D27E)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\sec67\my\sec_tick.h)(0x5E4B87C1)
+I (..\..\sec67\my\protocol.h)(0x5E4B7F3B)
+I (..\..\sec67\SDK\sdk_evt.h)(0x5E04629B)
+I (..\..\sec67\SDK\sdk.h)(0x5C00E3DA)
+I (..\..\sec67\my\Motor_func.h)(0x5DFB4B3D)
+I (..\..\sec67\user\cmd.h)(0x5DA7DDCC)
+I (..\..\sec67\user\vsh.h)(0x5C00E3DA)
+I (..\..\sec67\user\rbtree.h)(0x5C00E3DA)
+I (..\..\sec67\user\term.h)(0x5D53BE46)
+I (..\..\sec67\my\sec_printf.h)(0x5C00E3DA)
+F (..\..\sec67\my\softtimer.c)(0x5DD4CE30)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\softtimer.o" --omf_browse ".\output\softtimer.crf" --depend ".\output\softtimer.d")
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\sec67\my\comfunc.h)(0x5D8ADB11)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0D27E)
+I (..\..\sec67\user\list.h)(0x5D3EB191)
+I (..\..\sec67\my\task.h)(0x5D6C92EF)
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (..\..\sec67\my\sec_tick.h)(0x5E4B87C1)
+I (..\..\sec67\my\protocol.h)(0x5E4B7F3B)
+I (..\..\sec67\SDK\sdk_evt.h)(0x5E04629B)
+I (..\..\sec67\SDK\sdk.h)(0x5C00E3DA)
+I (..\..\sec67\my\Motor_func.h)(0x5DFB4B3D)
+I (..\..\sec67\my\softtimer.h)(0x5C00E3DA)
+F (..\..\sec67\my\task.c)(0x5D6CA498)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\task.o" --omf_browse ".\output\task.crf" --depend ".\output\task.d")
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\sec67\public\include.h)(0x5C00E3DA)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (..\..\sec67\user\list.h)(0x5D3EB191)
+I (..\..\sec67\my\comfunc.h)(0x5D8ADB11)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0D27E)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\sec67\my\sec_printf.h)(0x5C00E3DA)
+I (..\..\sec67\my\protocol.h)(0x5E4B7F3B)
+I (..\..\sec67\SDK\sdk_evt.h)(0x5E04629B)
+I (..\..\sec67\SDK\sdk.h)(0x5C00E3DA)
+I (..\..\sec67\my\Motor_func.h)(0x5DFB4B3D)
+I (..\..\sec67\my\task.h)(0x5D6C92EF)
+F (..\..\sec67\my\esuart.c)(0x5D5F9BFD)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\esuart.o" --omf_browse ".\output\esuart.crf" --depend ".\output\esuart.d")
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\sec67\dev_ctrl\include\uart.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\ssc1667.h)(0x5D53BE46)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\sec67\CMSIS\core_cm3.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmInstr.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmFunc.h)(0x5C00E3DA)
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (..\..\sec67\my\esuart.h)(0x5D53BE46)
+I (..\..\sec67\my\comfunc.h)(0x5D8ADB11)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0D27E)
+I (..\..\sec67\my\sec_printf.h)(0x5C00E3DA)
+I (..\..\sec67\dev_ctrl\include\gpio.h)(0x5C00E3DA)
+I (..\..\sec67\my\task.h)(0x5D6C92EF)
+I (..\..\sec67\user\list.h)(0x5D3EB191)
+I (..\..\sec67\my\sec_tick.h)(0x5E4B87C1)
+I (..\..\sec67\my\protocol.h)(0x5E4B7F3B)
+I (..\..\sec67\SDK\sdk_evt.h)(0x5E04629B)
+I (..\..\sec67\SDK\sdk.h)(0x5C00E3DA)
+I (..\..\sec67\my\Motor_func.h)(0x5DFB4B3D)
+I (..\..\sec67\my\softtimer.h)(0x5C00E3DA)
+F (..\..\sec67\my\Motor_func.c)(0x5E4C9F0C)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\sec67\public -I..\..\sec67\SDK -I..\..\sec67\user -I..\..\sec67\SDK\socket -I..\..\sec67\user -I..\..\sec67\dev_ctrl -I..\..\sec67\dev_ctrl\include -I..\..\sec67\CMSIS -I..\..\sec67\my --c99  --gnu -I D:\MDK4\ARM\RV31\INC -I D:\MDK4\ARM\CMSIS\Include -DSEC_HIGH -o ".\output\motor_func.o" --omf_browse ".\output\motor_func.crf" --depend ".\output\motor_func.d")
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB0D284)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\sec67\public\include.h)(0x5C00E3DA)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (..\..\sec67\public\types.h)(0x5D53BE46)
+I (..\..\sec67\SDK\sdk.h)(0x5C00E3DA)
+I (..\..\sec67\dev_ctrl\include\flash.h)(0x5E4B7376)
+I (..\..\sec67\SDK\sdk_svc.h)(0x5C00E3DA)
+I (..\..\sec67\my\comfunc.h)(0x5D8ADB11)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB0D27E)
+I (D:\MDK4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\sec67\my\sec_printf.h)(0x5C00E3DA)
+I (..\..\sec67\my\protocol.h)(0x5E4B7F3B)
+I (..\..\sec67\SDK\sdk_evt.h)(0x5E04629B)
+I (..\..\sec67\my\Motor_func.h)(0x5DFB4B3D)
+I (..\..\sec67\my\update.h)(0x5D53BE46)
+I (..\..\sec67\dev_ctrl\include\timer.h)(0x5D54CAB8)
+I (..\..\sec67\my\repeater.h)(0x5E094B67)
+I (..\..\sec67\dev_ctrl\include\uart.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\ssc1667.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cm3.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmInstr.h)(0x5D53BE46)
+I (..\..\sec67\CMSIS\core_cmFunc.h)(0x5C00E3DA)
+I (..\..\sec67\my\RemoteRXDegree.h)(0x5D6CAD1B)
+I (..\..\sec67\dev_ctrl\include\gpio.h)(0x5C00E3DA)
+I (..\..\sec67\my\sec_tick.h)(0x5E4B87C1)
+I (..\..\sec67\my\dev_show.h)(0x5C00E3DA)
+I (..\..\sec67\my\task.h)(0x5D6C92EF)
+I (..\..\sec67\user\list.h)(0x5D3EB191)
+I (..\..\sec67\my\softtimer.h)(0x5C00E3DA)
+I (..\..\sec67\my\esuart.h)(0x5D53BE46)
+I (..\..\sec67\user\cmd.h)(0x5DA7DDCC)
+I (..\..\sec67\user\vsh.h)(0x5C00E3DA)
+I (..\..\sec67\user\rbtree.h)(0x5C00E3DA)
+I (..\..\sec67\user\term.h)(0x5D53BE46)
